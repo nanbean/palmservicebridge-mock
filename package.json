@@ -1,0 +1,26 @@
+{
+  "name": "palmservicebridge-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mock",
+    "palmservicebridge",
+    "enact",
+    "webos"
+  ],
+  "author": "nanbean",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "global": "^4.3.2"
+  }
+}
