@@ -1,7 +1,7 @@
 {
   "name": "palmservicebridge-mock",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Utility for mocking PalmServiceBridge",
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "global": "^4.3.2"
-  }
+  },
+  "homepage": "https://github.com/nanbean/palmservicebridge-mock#readme"
 }

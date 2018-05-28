@@ -53,7 +53,7 @@ it('+++ Reset to Initial Settings click should call proper luna api when parenta
 
 ## <a name="api">API</a>
 
-### xhr-mock
+### palmservicebridge-mock
 
 #### .setup()
 
