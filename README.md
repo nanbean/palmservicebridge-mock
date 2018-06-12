@@ -18,7 +18,7 @@ If you are using a bundler like [Webpack](https://www.npmjs.com/package/webpack)
 npm install --save-dev palmservicebridge-mock
 ```
 
-Now import `xhr-mock` and start using it in your scripts:
+Now import `palmservicebridge-mock` and start using it in your scripts:
 
 ```js
 import palmServiceBridgeMock from 'palmservicebridge-mock';
